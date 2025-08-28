@@ -107,7 +107,7 @@ public class Main {
                     break;
 
                 case 9:
-                    // Show all courses first
+                    // show all courses
                     List<Course> courses = courseDAO.getAllCourses();
                     if (courses.isEmpty()) {
                         System.out.println("No courses available. Please add a course first.");
@@ -116,21 +116,32 @@ public class Main {
                     System.out.println("Available Courses:");
                     courses.forEach(System.out::println);
 
+                    System.out.print("Enter your student ID: ");   // ask for creator ID
+                    int studentId = sc.nextInt();
+                    sc.nextLine();
+
                     System.out.print("Enter course ID: ");
                     int cid = sc.nextInt();
                     sc.nextLine();
 
                     System.out.print("Enter session time (yyyy-MM-dd HH:mm): ");
                     String timeStr = sc.nextLine();
+
                     System.out.print("Enter location: ");
                     String loc = sc.nextLine();
 
-                    LocalDateTime time = LocalDateTime.parse(timeStr, DateTimeFormatter.ofPattern("yyyy-M-d HH:mm"));
+                    LocalDateTime time = LocalDateTime.parse(
+                            timeStr,
+                            DateTimeFormatter.ofPattern("yyyy-M-d HH:mm")
+                    );
+
                     Session session = new Session(0, cid, time, loc);
-                    sessionDAO.addSession(session);
+
+                    sessionDAO.addSession(session, studentId);
 
                     System.out.println("Session scheduled!");
                     break;
+
 
                 case 10:
                     System.out.print("Enter student ID: ");
