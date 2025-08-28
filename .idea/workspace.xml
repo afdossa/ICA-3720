@@ -7,7 +7,11 @@
     <list default="true" id="d329881e-ceb3-4f74-a69b-9875867940b1" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/ICA-3720.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ICA-3720.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testing/AvailabilityDAOTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Testing/AvailabilityDAOTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testing/CourseDAOTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Testing/CourseDAOTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testing/SessionDAOTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Testing/SessionDAOTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testing/StudentDAOTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Testing/StudentDAOTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ICA-3720/.idea/ICA-3720.iml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ICA-3720/.idea/ICA-3720.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,8 +117,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.IntegrationTest.testEndToEndFlow" />
         <item itemvalue="JUnit.Testing in ICA-3720" />
+        <item itemvalue="JUnit.IntegrationTest.testEndToEndFlow" />
       </list>
     </recent_temporary>
   </component>
