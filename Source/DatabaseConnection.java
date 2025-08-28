@@ -1,4 +1,4 @@
-package edu.clemson.studybuddy;
+package Source;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

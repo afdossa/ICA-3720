@@ -5,7 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d329881e-ceb3-4f74-a69b-9875867940b1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/ICA 3720.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Availability.java" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Availability.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvailabilityDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/Source/AvailabilityDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Course.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CourseDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/Source/CourseDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/Source/DatabaseConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Match.java" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Match.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MatchService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Source/MatchService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SQL Code/Schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Database/Schema.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session.java" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Session.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SessionDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/Source/SessionDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudentDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/Source/StudentDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ICA-3720/SQL Code/Schema.sql" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +98,7 @@
       <option name="presentableId" value="Default" />
       <updated>1756402541821</updated>
       <workItem from="1756402542874" duration="4840000" />
-      <workItem from="1756414723031" duration="317000" />
+      <workItem from="1756414723031" duration="1020000" />
     </task>
     <servers />
   </component>

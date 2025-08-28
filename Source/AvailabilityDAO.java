@@ -1,7 +1,4 @@
-package edu.clemson.studybuddy.dao;
-
-import edu.clemson.studybuddy.DatabaseConnection;
-import edu.clemson.studybuddy.model.Availability;
+package Source;
 
 import java.sql.*;
 import java.util.ArrayList;

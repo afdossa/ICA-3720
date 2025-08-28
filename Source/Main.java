@@ -1,14 +1,4 @@
-package edu.clemson.studybuddy;
-
-import edu.clemson.studybuddy.dao.StudentDAO;
-import edu.clemson.studybuddy.dao.CourseDAO;
-import edu.clemson.studybuddy.dao.AvailabilityDAO;
-import edu.clemson.studybuddy.dao.SessionDAO;
-import edu.clemson.studybuddy.service.MatchService;
-import edu.clemson.studybuddy.model.Student;
-import edu.clemson.studybuddy.model.Course;
-import edu.clemson.studybuddy.model.Availability;
-import edu.clemson.studybuddy.model.Session;
+package Source;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;

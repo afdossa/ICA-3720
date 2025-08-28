@@ -1,4 +1,4 @@
-package edu.clemson.studybuddy.model;
+package Source;
 
 public class Course {
     private int id;
