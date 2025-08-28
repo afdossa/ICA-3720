@@ -16,12 +16,19 @@ public class Session {
     }
 
     public int getId() { return id; }
+    public void setId(int id) { this.id = id; }   // ✅ add this
+
     public int getCourseId() { return courseId; }
     public LocalDateTime getTime() { return time; }
     public String getLocation() { return location; }
 
     @Override
     public String toString() {
-        return "Session on " + time + " at " + location;
+        return "Session{" +
+                "id=" + id +
+                ", courseId=" + courseId +
+                ", time=" + time +
+                ", location='" + location + '\'' +
+                '}';
     }
 }
