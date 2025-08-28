@@ -5,16 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d329881e-ceb3-4f74-a69b-9875867940b1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Testing/AvailabilityDAOTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Testing/CourseDAOTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Testing/IntegrationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Testing/SessionDAOTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Testing/StudentDAOTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ICA-3720.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ICA-3720.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/SessionDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/Source/SessionDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ICA-3720/Source/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ICA-3720/Source/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ICA-3720/Source/SessionDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ICA-3720/Source/SessionDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/DatabaseConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/Source/DatabaseConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testing/AvailabilityDAOTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Testing/AvailabilityDAOTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testing/CourseDAOTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Testing/CourseDAOTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testing/IntegrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Testing/IntegrationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testing/SessionDAOTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Testing/SessionDAOTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testing/StudentDAOTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Testing/StudentDAOTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ICA-3720/Source/DatabaseConnection.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,11 +53,22 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Main.executor": "Run",
+    "Application.Unnamed.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.AvailabilityDAOTest.executor": "Run",
+    "JUnit.CourseDAOTest.executor": "Run",
+    "JUnit.IntegrationTest.testEndToEndFlow.executor": "Run",
+    "JUnit.Source in ICA-3720.executor": "Run",
+    "JUnit.StudentDAOTest.executor": "Run",
+    "JUnit.Testing in ICA-3720.executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Andre/Downloads/junit-jupiter-5.10.0.jar",
+    "last_opened_file_path": "C:/Users/Andre/Downloads/JunitPA.zip",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -75,6 +85,44 @@
     ]
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="IntegrationTest.testEndToEndFlow" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ICA-3720" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="IntegrationTest" />
+      <option name="METHOD_NAME" value="testEndToEndFlow" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Testing in ICA-3720" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ICA-3720" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Testing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Testing" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.IntegrationTest.testEndToEndFlow" />
+      <item itemvalue="JUnit.Testing in ICA-3720" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.Testing in ICA-3720" />
+        <item itemvalue="JUnit.IntegrationTest.testEndToEndFlow" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -92,7 +140,7 @@
       <option name="presentableId" value="Default" />
       <updated>1756402541821</updated>
       <workItem from="1756402542874" duration="4840000" />
-      <workItem from="1756414723031" duration="3274000" />
+      <workItem from="1756414723031" duration="4674000" />
     </task>
     <servers />
   </component>

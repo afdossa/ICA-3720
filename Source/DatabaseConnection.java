@@ -3,6 +3,7 @@ package Source;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
+import java.sql.Statement;
 
 public class DatabaseConnection {
     private static final String URL = "jdbc:mysql://localhost:3306/studybuddy";
@@ -11,5 +12,15 @@ public class DatabaseConnection {
 
     public static Connection getConnection() throws SQLException {
         return DriverManager.getConnection(URL, USER, PASSWORD);
+    }
+
+    // Utility method for tests and cleanup
+    public static void executeUpdate(String sql) {
+        try (Connection conn = getConnection();
+             Statement stmt = conn.createStatement()) {
+            stmt.executeUpdate(sql);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 }

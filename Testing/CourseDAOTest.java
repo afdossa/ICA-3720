@@ -1,3 +1,6 @@
+import Source.CourseDAO;
+import Source.Student;
+import Source.StudentDAO;
 import org.junit.jupiter.api.*;
 import java.util.List;
 import static org.junit.jupiter.api.Assertions.*;

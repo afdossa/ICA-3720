@@ -1,7 +1,24 @@
-import org.junit.jupiter.api.*;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.Test;
+
 import java.time.LocalDateTime;
 import java.util.List;
+
 import static org.junit.jupiter.api.Assertions.*;
+
+import Source.StudentDAO;
+import Source.CourseDAO;
+import Source.SessionDAO;
+import Source.AvailabilityDAO;
+
+import Source.Student;
+import Source.Course;
+import Source.Availability;
+import Source.Session;
+import Source.DatabaseConnection;
+
+
 
 public class IntegrationTest {
     private StudentDAO studentDAO;
