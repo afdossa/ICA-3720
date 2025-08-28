@@ -83,4 +83,24 @@ public class CourseDAO {
         }
         return students;
     }
+
+    // ✅ NEW METHOD: List all courses
+    public List<Course> getAllCourses() {
+        List<Course> courses = new ArrayList<>();
+        String sql = "SELECT * FROM Courses";
+        try (Connection conn = DatabaseConnection.getConnection();
+             Statement stmt = conn.createStatement();
+             ResultSet rs = stmt.executeQuery(sql)) {
+            while (rs.next()) {
+                courses.add(new Course(
+                        rs.getInt("course_id"),
+                        rs.getString("course_code"),
+                        rs.getString("course_name")
+                ));
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return courses;
+    }
 }
