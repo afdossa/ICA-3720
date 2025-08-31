@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d329881e-ceb3-4f74-a69b-9875867940b1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/ICA-3720.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ICA-3720.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ICA-3720/.idea/ICA-3720.iml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ICA-3720/.idea/ICA-3720.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ICA-3720/AvailabilityDAOTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ICA-3720/CourseDAOTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ICA-3720/IntegrationTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ICA-3720/SessionDAOTest.class" beforeDir="false" />
-    </list>
+    <list default="true" id="d329881e-ceb3-4f74-a69b-9875867940b1" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -143,6 +135,7 @@
       <updated>1756402541821</updated>
       <workItem from="1756402542874" duration="4840000" />
       <workItem from="1756414723031" duration="4674000" />
+      <workItem from="1756670688035" duration="447000" />
     </task>
     <servers />
   </component>
